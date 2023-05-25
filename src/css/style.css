@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+:root {
+
+    /* Primary */
+    --Pink: hsl(322, 100%, 66%);
+    --Light-Pink: hsl(321, 100%, 78%);
+    --Light-Red: hsl(0, 100%, 63%);
+    --Light-Blue: hsl(207, 100%, 98%);;
+    --Light-green: hsl(130, 52%, 61%);
+    --Blue: #00C9FC;
+
+    /* Neutral */
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --gray: #919191;
+
+}
+
+p, h1, h2, h3 {
+    cursor: default;
+}
+
+/* formatação tag link */
+a {
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+}
+
+a:visited {
+    color: inherit;
+}
+
+/* header */
+
+.logo img {
+    width: 10rem;
+}
+
+.botao button {
+    background-color: transparent;
+    border: 1px solid var(--Pink);
+    color: var(--Pink);
+    border-radius: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: 0.5s ease-in-out;
+}
+
+.botao button:hover {
+    color: var(--Light-Pink);
+    border-color: var(--Light-Pink);
+}
+
+
+/* banner */
+
+.bannerText h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bannerText p {
+    width: 31.25rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.button {
+    width: 19rem;
+    border-radius: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    background-color: var(--Pink);
+    border: none;
+    box-shadow: 0.2rem 0.2rem 0.5rem #0000002f;
+    transition: 0.5s ease-in-out;
+}
+
+.button:hover {
+        background-color: var(--Light-Pink);
+}
+
+/* estatisticas */
+
+.statistics {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.statistics img {
+    width: 2.3rem;
+}
+
+.statistics h3 {
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+.statistics p {
+    color: var(--gray);
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+/* info */
+
+.borderTop img {
+    width: 100%;
+}
+
+.borderBottom img {
+    width: 100%;
+}
+
+.information1, .information3 {
+    background-color: var(--Light-Blue);
+    height: auto;
+}
+
+.infoArea h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+}
+
+.infoArea p {
+    width: 31rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.infoIMG img {
+    width: 40rem;
+}
+
+.information2 .infoArea p {
+    width: 32rem;
+}
+
+.information3 .infoArea p {
+    width: 33rem;
+}
+
+/* start */
+
+.startArea h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
+
+
+/* footer */
+
+.footerArea {
+    background-color: var(--Very-Dark-Cyan);
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+}
+
+.borderTop img {
+    width: 100%;
+}
+
+.footerContent img {
+    width: 10rem;
+}
+
+.footerContent p {
+    width: 20rem;
+}
+
+.phone img {
+    width: 1rem;
+}
+
+.email img {
+    width: 1.2rem;
+}
+
+.newsletter h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.newsletter p {
+    width: 22rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+input[type=email] {
+    width: 19rem;
+    height: 2.5rem;
+    border-radius: 0.4rem;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+input[type=button] {
+    width: 7.7rem;
+    height: 2.5rem;
+    border-radius: 0.2rem;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    background-color: var(--Pink);
+    font-size: 0.85rem;
+    transition: 0.5s ease-in-out;
+}
+
+input[type=button]:hover {
+    background-color: var(--Light-Pink);
+}
+
+input[type=email]:focus {
+    outline: 1.5px solid var(--Pink);
+}
+
+.socialMedia i {
+    font-size: 1.8rem;
+    transition: 0.5s ease-in-out;
+}
+
+.socialMedia i:hover {
+    color: var(--Blue);
+}
+
+
+.successMessage {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: var(--Light-green);
+}
+
+.errorMessage {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: var(--Light-Red);
+}
+
+/* responsividade  */
+
+@media screen and (max-width: 800px) {
+    .logo img {
+        width: 7rem;
+    }
+
+    .botao button {
+        font-size: 0.6rem;
+        padding: 0.3rem 1rem;
+    }
+
+    .bannerText p {
+        width: 25rem;
+    }
+
+    .button {
+        width: 15rem;
+    }
+
+    
+    .statistics {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .statistics img {
+        width: 1.8rem;
+    }
+
+    .statistics h3 {
+        font-size: 4rem;
+    }
+
+    .statistics p {
+        font-size: 1rem;
+    }
+
+    .borderTop img {
+        content: url(/src/images/mobile/bg-section-top-mobile-1.svg)
+    }
+
+    .borderBottom img {
+        content: url(/src/images/mobile/bg-section-bottom-mobile-1.svg)
+    }
+
+    .infoArea {
+        text-align: center;
+    }
+
+    .infoArea h2{
+        font-size: 1.5rem;
+    }
+
+    .infoArea p {
+        width: 21rem;
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+
+    .infoArea .title2 {
+        font-size: 1.2rem;
+    }
+
+    .information2 .infoArea .text2 {
+        width: 21.6rem;
+    }
+
+    .borderTop2 img {
+        content: url(/src/images/mobile/bg-section-top-mobile-2.svg)
+    }
+
+    .borderBottom2 img {
+        content: url(/src/images/mobile/bg-section-bottom-mobile-2.svg)
+    }
+
+    .information3 .infoArea h2{
+        font-size: 1.3rem;
+    }
+
+    .information3  .infoArea p {
+        width: 21rem;
+        font-size: 0.9rem;
+    }
+
+    .startArea h1 {
+        font-size: 1.5rem
+    }
+
+    .startArea .button {
+        font-size: 0.8rem;
+        width: 12rem;
+        height: 2.5rem;
+    }
+
+    .borderfooter {
+        width: 100%;
+        content: url(/src/images/mobile/bg-footer-top-mobile.svg);
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    input[type=email] {
+        width: 22rem;
+        height: 3rem;
+    }
+    
+    input[type=button] {
+        height: 2.3rem;
+    }
+
+}
+
