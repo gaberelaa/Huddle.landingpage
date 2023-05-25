@@ -273,7 +273,7 @@ input[type=email]:focus {
     .statistics {
         font-family: 'Open Sans', sans-serif;
     }
-
+mobile/
     .statistics img {
         width: 1.8rem;
     }
@@ -287,11 +287,11 @@ input[type=email]:focus {
     }
 
     .borderTop img {
-        content: url(/src/images/mobile/bg-section-top-mobile-1.svg)
+        content: url(mobile/bg-section-top-mobile-1.svg)
     }
 
     .borderBottom img {
-        content: url(/src/images/mobile/bg-section-bottom-mobile-1.svg)
+        content: url(mobile/bg-section-bottom-mobile-1.svg)
     }
 
     .infoArea {
@@ -317,11 +317,11 @@ input[type=email]:focus {
     }
 
     .borderTop2 img {
-        content: url(/src/images/mobile/bg-section-top-mobile-2.svg)
+        content: url(mobile/bg-section-top-mobile-2.svg)
     }
 
     .borderBottom2 img {
-        content: url(/src/images/mobile/bg-section-bottom-mobile-2.svg)
+        content: url(mobile/bg-section-bottom-mobile-2.svg)
     }
 
     .information3 .infoArea h2{
@@ -345,7 +345,7 @@ input[type=email]:focus {
 
     .borderfooter {
         width: 100%;
-        content: url(/src/images/mobile/bg-footer-top-mobile.svg);
+        content: url(mobile/bg-footer-top-mobile.svg);
     }
 
     form {
